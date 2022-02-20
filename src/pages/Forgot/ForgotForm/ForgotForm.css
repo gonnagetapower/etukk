@@ -1,0 +1,26 @@
+.forgot-title {
+    text-align: center;
+    color: #1C1C27;
+    font-weight: 600;
+    line-height: 23px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.forgot-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-form__email {
+    margin-bottom: 40px;
+}
+
+.forgot-form input {
+    width: 340px;
+}
+
+.forgot-form__submit {}

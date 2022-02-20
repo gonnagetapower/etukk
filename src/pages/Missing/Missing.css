@@ -1,0 +1,77 @@
+/** @format */
+
+.missing-wrapper {
+    min-height: 100vh;
+    min-width: 80vw;
+    /* background-image: url("../../assets/error_404/background_image.png"); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.missing-empty {
+    flex: 0 0 11vw;
+}
+
+.missing-error {
+    flex: 0 0 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.missing-error div:first-child {
+    font-weight: 900;
+    font-size: 144px;
+    line-height: 144px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.missing-error div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.missing-error div:nth-child(2) span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.missing-error div:nth-child(2) span:first-child {
+    margin-bottom: 10px;
+}
+
+.missing-error button {
+    margin-bottom: 30px;
+}
+
+.missing-error div:last-child {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    opacity: 0.6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.missing-logo {
+    flex: 0 0 20vw;
+}
+
+.missing-logo img {
+    filter: invert(100%);
+    height: 100vh;
+}

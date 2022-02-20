@@ -1,0 +1,48 @@
+.user-profile__lots-wrapper {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.up-lots__search {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.up-lots__search input {
+    width: calc(25vw - 40px);
+    border-radius: 0;
+    height: 30px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.up-lots__search img {
+    margin-left: auto;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.up-lots__lots {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.up-lots__lots-item {
+    margin-bottom: 30px;
+}
+
+.up-lots__lots div:nth-child(2n) {
+    margin-left: auto;
+}

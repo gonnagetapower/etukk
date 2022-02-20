@@ -1,0 +1,122 @@
+.menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    /* width: 5vh;  */
+}
+
+.menu-logo {}
+
+.menu-row__leftside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-logo img {
+    width: 68px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.menu-navs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.menu-navs__item {
+    margin-left: 30px;
+    color: #1C1C27;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.menu-row__rightside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button button {
+    border-radius: 8px !important;
+    padding: 5px !important;
+    padding-right: 14px !important;
+    padding-left: 14px !important;
+}
+
+.menu-user {
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.menu-user__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-user__icons img {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu-user__user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.menu-user__user-image img {
+    border-radius: 15px;
+}
+
+.menu-user__user-name {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1C1C27;
+    margin-left: 10px;
+}
+
+.menu-user__user-arrow {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button__burger {
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.menu-button__burger img {
+    width: 20px;
+    height: 20px;
+}
+
+.burger-menu__navs {}
+
+.burger-menu__navs-item {}
+
+.burger-menu__bottom {}

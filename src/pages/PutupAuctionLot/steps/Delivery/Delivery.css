@@ -1,0 +1,110 @@
+.pal-delivery__wrapper {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pal-delivery__title {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.pal-delivery__date {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pal-delivery__date-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.pal-delivery__date-radios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.pal-delivery__features {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.pal-delivery__features-sum {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pal-delivery__features-sum input {
+    width: 265px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.pal-delivery__features-sum span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.pal-delivery__features-country {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.pal-delivery__features-country input {
+    width: 265px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.pal-delivery__features-country span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.pal-delivery__features-del {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.pal-delivery__features-del span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.pal-delivery__features-del input {
+    width: 265px;
+    text-align: left;
+    padding-left: 15px;
+}

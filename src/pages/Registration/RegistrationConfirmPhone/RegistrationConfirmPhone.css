@@ -1,0 +1,46 @@
+.confirm-phone__title {
+    width: 200px;
+    text-align: center;
+    color: #1C1C27;
+    font-weight: 600;
+    line-height: 23px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+.confirm-phone__title-n {
+    width: 280px;
+    text-align: center;
+    color: #1C1C27;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 3vh;
+}
+
+.confirm-phone__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.confirm-phone__again {
+    color: #BCC2C7;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 2vh;
+}
+
+.confirm-phone__submit {}
+
+.confirm-phone__form input {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

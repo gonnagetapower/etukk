@@ -1,0 +1,16 @@
+.forgot-title {}
+
+.forgot-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-form__password {
+    margin-bottom: 30px;
+}
+
+.forgot-form__repassword {
+    margin-bottom: 40px;
+}

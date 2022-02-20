@@ -1,0 +1,88 @@
+.user-profile__reviews-wrapper {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* overflow-y: auto; */
+}
+
+.up-revs-rev {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.up-revs__top {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.up-revs__top-userimage {}
+
+.up-revs__top-userimage img {
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+}
+
+.up-revs__top-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.up-revs__top-name span:first-child {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.up-revs__top-name span:last-child {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #808991;
+}
+
+.up-revs__top-date {
+    margin-left: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.up-revs__comment {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.up-revs__media {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.up-revs__media img {
+    height: 60px;
+    width: 75px;
+    border-radius: 8px;
+    margin-right: 10px;
+}

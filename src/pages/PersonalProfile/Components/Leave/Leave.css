@@ -1,0 +1,31 @@
+.leave-wrapper {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.leave-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #1C1C27;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.leave-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.leave-buttons button {
+    border-radius: 8px !important;
+}
+
+.leave-buttons button:last-child {
+    margin-left: 25px;
+}

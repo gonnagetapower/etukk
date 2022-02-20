@@ -1,0 +1,21 @@
+.outbid-bets__wrapper {
+    width: 80vw;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    overflow-y: auto;
+}
+
+.outbid-bets__wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.outbid-bets_card {
+    flex: 0 0 calc(25% - 15px);
+    padding: 15px;
+    margin-bottom: 30px;
+}

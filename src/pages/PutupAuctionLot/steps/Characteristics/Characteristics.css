@@ -1,0 +1,59 @@
+.pal-chars__wrapper {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pal-chars__title {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pal-chars__titlen {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #1C1C27;
+}
+
+.pal-chars__inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pal-chars__inputs input {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.pal-chars__inputs input:last-child {
+    margin-left: 15px;
+}
+
+.pal-chars__add {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pal-chars__add img {
+    margin-left: 15px;
+}
+
+.pal-chars__add span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1C1C27;
+}

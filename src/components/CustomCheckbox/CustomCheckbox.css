@@ -1,0 +1,23 @@
+.outlined {
+    background-color: #ffffff !important;
+    border: solid 1px #ED1D4A !important;
+    border-radius: 0 !important;
+    color: #ED1D4A !important;
+    transition: ease 0.3s background-color, ease 0.3s color !important;
+}
+
+.outlined:hover {
+    color: white !important;
+    background-color: #ED1D4A !important;
+}
+
+.reverse {
+    background-color: #ffffff !important;
+    color: #ED1D4A !important;
+    transition: ease 0.3s background-color, ease 0.3s color !important;
+}
+
+.reverse:hover {
+    color: white !important;
+    background-color: #ED1D4A !important;
+}

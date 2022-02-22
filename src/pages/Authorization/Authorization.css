@@ -1,0 +1,137 @@
+.authorization-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.authorization-logo__main {
+    flex: 0 0 20vw;
+}
+
+.authorization-logo__main img {
+    size: cover;
+    max-height: 100vh;
+}
+
+.authorization-content__block {
+    flex: 0 0 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorization-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorization-logo {
+    margin-bottom: 3vh;
+}
+
+.authorization-logo img {}
+
+.authorization-title {
+    color: #1c1c27;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+.authorization-via {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorization-via__title {
+    color: #ed1d4a;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 1vh;
+}
+
+.authorization-via__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.authorization-via__social img {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.authorization-via__social img:first-child {
+    margin-left: 0px;
+}
+
+.authorization-via__social img:last-child {
+    margin-right: 0px;
+}
+
+.authorization-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+.authorization-form input {
+    width: 340px;
+}
+
+.authorization-form input:first-child {
+    margin-bottom: 3vh;
+}
+
+.authorization-form input:last-child {
+    /* image */
+}
+
+.authorization-forgot {
+    margin-bottom: 3vh;
+}
+
+.authorization-forgot a {
+    color: #bcc2c7;
+    font-size: 12px;
+}
+
+.authorization-submit {
+    margin-bottom: 3vh;
+}
+
+.authorization-toreg {}
+
+.authorization-toreg a {
+    color: #ed1d4a;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.authorization-close {
+    position: absolute;
+    z-index: 1001;
+    top: 56px;
+    right: 10vw;
+    cursor: pointer;
+}

@@ -2,14 +2,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// import auctionLogo from "../../assets/auction_logo.png";
-// import auctionMainLogo from "../../assets/auction_logo_main.png";
-// import appleIcon from "../../assets/icons/media/apple_icon.png";
+import auctionLogo from "../../assets/auction_logo.png";
+import auctionMainLogo from "../../assets/auction_logo_main.png";
 
-// import googleIcon from "../../assets/icons/media/go_icon.png";
+import appleIcon from "../../assets/icons/media/apple_icon.png";
+import googleIcon from "../../assets/icons/media/go_icon.png";
+import yandexIcon from "../../assets/icons/media/yandex_icon.png";
+import vkIcon from "../../assets/icons/media/vk_icon.png";
+import fbIcon from "../../assets/icons/media/facebook_icon.png";
+import okIcon from "../../assets/icons/media/ok_icon.png";
 
-// import yandexIcon from "../../assets/icons/media/yandex_icon.png";
-// import closeIcon from "../../assets/icons/close_icon.png"
+
+
+import closeIcon from "../../assets/icons/close_icon.png"
 
 
 import { CustomButton } from "../../components";
@@ -19,20 +24,21 @@ import "./Authorization.css";
 
 const Authorization = () => {
 
-    // const mediaItems = [
+    const mediaItems = [
 
-    //     { id: 0, icon: yandexIcon, title: "yandex" },
-    //     { id: 1, icon: googleIcon, title: "google" },
-    //     { id: 2, icon: appleIcon, title: "apple" },
-
-
-    // ]
+        { id: 0, icon: yandexIcon, title: "yandex" },
+        { id: 1, icon: googleIcon, title: "google" },
+        { id: 2, icon: vkIcon, title: "apple" },
+        { id: 3, icon: fbIcon, title: "facebook" },
+        { id: 4, icon: okIcon, title: "ok" },
+        { id: 5, icon: appleIcon, title: "apple" },
+    ]
 
 
 
     return (
         <>
-            {/* <div className="authorization-close">
+            <div className="authorization-close">
                 <img src={closeIcon} alt="authorization-close_icon" />
             </div>
             <div className="authorization-wrapper">
@@ -73,7 +79,7 @@ const Authorization = () => {
                     </div>
                 </div>
 
-            </div> */}
+            </div>
         </>
     );
 };

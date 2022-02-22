@@ -1,0 +1,48 @@
+.authlayout-close {
+    position: absolute;
+    z-index: 1001;
+    top: 56px;
+    right: 10vw;
+    cursor: pointer;
+}
+
+.authlayout-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.authlayout-logo__main {
+    flex: 0 0 20vw;
+}
+
+.authlayout-logo__main img {
+    size: cover;
+    max-height: 100vh;
+}
+
+.authlayout-content__block {
+    flex: 0 0 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.authlayout-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.authlayout-logo {
+    margin-bottom: 50px;
+}
+
+.authlayout-logo img {}

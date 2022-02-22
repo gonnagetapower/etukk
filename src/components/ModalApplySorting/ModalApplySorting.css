@@ -1,0 +1,16 @@
+.modalconfirm-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1C1C27;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.modalconfirm-close {
+    position: absolute;
+    z-index: 1001;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}

@@ -3,7 +3,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { CustomButton } from "../../components";
-// import auctionLogoMain from "../../assets/auction_logo_main.png";
+import auctionLogoMain from "../../assets/auction_logo_main.png";
 
 import "./Missing.css";
 const Missing = () => {
@@ -23,7 +23,7 @@ const Missing = () => {
       </div>
 
       <div className="missing-logo">
-        {/* <img src={auctionLogoMain} alt="auction_logo_main" /> */}
+        <img src={auctionLogoMain} alt="auction_logo_main" />
       </div>
     </div>
   );

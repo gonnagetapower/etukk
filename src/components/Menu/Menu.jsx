@@ -1,13 +1,11 @@
-/** @format */
-
 import React from "react";
-// import auctionLogo from "../../assets/auction_logo.png";
-// import favoritesUserIcon from "../../assets/icons/menu/favorites_user_icon.png";
-// import notificationUserIcon from "../../assets/icons/menu/notification_user_icon.png";
-// import defaultUserIcon from "../../assets/icons/menu/default_user_icon.png";
-// import arrowUserIcon from "../../assets/icons/menu/arrow_user_icon.png";
-// import menuBurgerIcon from "../../assets/icons/menu/menu_burger_icon.png";
-// import menuBurgerActive from "../../assets/icons/menu/menu_burger_icon_active.png";
+import auctionLogo from "../../assets/auction_logo.png";
+import favoritesUserIcon from "../../assets/icons/menu/favorites_user_icon.png";
+import notificationUserIcon from "../../assets/icons/menu/notification_user_icon.png";
+import defaultUserIcon from "../../assets/icons/menu/default_user_icon.png";
+import arrowUserIcon from "../../assets/icons/menu/arrow_user_icon.png";
+import menuBurgerIcon from "../../assets/icons/menu/menu_burger_icon.png";
+import menuBurgerActive from "../../assets/icons/menu/menu_burger_icon_active.png";
 
 import { CustomButton } from "../";
 import "./Menu.css";
@@ -34,7 +32,7 @@ const Menu = () => {
     <div className="menu-wrapper">
       <div className="menu-row__leftside">
         <div className="menu-logo">
-          {/* <img src={auctionLogo} alt="menu_logo" /> */}
+          <img src={auctionLogo} alt="menu_logo" />
         </div>
         <div className="menu-navs">
           {menuNavs &&
@@ -76,16 +74,16 @@ const Menu = () => {
               </div>
             </div> */}
             <div className="menu-user__icons">
-              {/* <img src={favoritesUserIcon} alt="menu-user_icon" />
-              <img src={notificationUserIcon} alt="notification-user_icon" /> */}
+              <img src={favoritesUserIcon} alt="menu-user_icon" />
+              <img src={notificationUserIcon} alt="notification-user_icon" />
             </div>
             <div className={activeBurgerMenu ? "menu-user__user menu-user__user-active" : "menu-user__user"}>
               <div className="menu-user__user-image">
-                {/* <img src={defaultUserIcon} alt="menu_user_icon" /> */}
+                <img src={defaultUserIcon} alt="menu_user_icon" />
               </div>
               <div className="menu-user__user-name">Игорь</div>
               <div className="menu-user__user-arrow">
-                {/* <img src={arrowUserIcon} alt="menu_arrow_icon" /> */}
+                <img src={arrowUserIcon} alt="menu_arrow_icon" />
               </div>
             </div>
           </div>
@@ -95,11 +93,11 @@ const Menu = () => {
           onClick={() => setActiveBurgerMenu(!activeBurgerMenu)}
           className="menu-button__burger"
         >
-          {/* {!activeBurgerMenu ? (
+          {!activeBurgerMenu ? (
             <img src={menuBurgerIcon} alt="menu_burger_icon" />
           ) : (
             <img src={menuBurgerActive} alt="menu_burger_icon" />
-          )} */}
+          )}
         </div>
       </div>
     </div>

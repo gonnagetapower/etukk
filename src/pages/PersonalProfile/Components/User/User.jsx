@@ -2,18 +2,18 @@
 import React from "react";
 
 
-// import starIcon from "../../../../assets/icons/personal_profile/star_icon.png"
-// import likeIcon from "../../../../assets/icons/personal_profile/like_icon.png"
-// import dislikeIcon from "../../../../assets/icons/personal_profile/dislike_icon.png"
-// import avatarCameraIcon from "../../../../assets/icons/personal_profile/user_dslr_camera.png"
-// import analyticsIcon from "../../../../assets/icons/personal_profile/analytics_icon.png"
+import starIcon from "../../../../assets/icons/personal_profile/star_icon.png"
+import likeIcon from "../../../../assets/icons/personal_profile/like_icon.png"
+import dislikeIcon from "../../../../assets/icons/personal_profile/dislike_icon.png"
+import avatarCameraIcon from "../../../../assets/icons/personal_profile/user_dslr_camera.png"
+import analyticsIcon from "../../../../assets/icons/personal_profile/analytics_icon.png"
 
 
-// import "./User.css";
+import "./User.css";
 const User = () => {
   return (
     <div className="pprofile-profile">
-      {/* <div className="profile-data">
+      <div className="profile-data">
         <div className="profile-data__avatar">
           <img src={avatarCameraIcon} alt="dslr_camera" />
         </div>
@@ -64,7 +64,7 @@ const User = () => {
             <span>1 300 ₽</span>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

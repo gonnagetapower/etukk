@@ -1,14 +1,14 @@
 
 import React from "react";
 
-// import auctionLogo from "../../assets/auction_logo.png";
+import auctionLogo from "../../assets/auction_logo.png";
 
 import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="footer-logo">
-        {/* <img src={auctionLogo} alt="footer_logo" /> */}
+        <img src={auctionLogo} alt="footer_logo" />
       </div>
       <div className="footer-features__user footer-column">
         <span>Избранное</span>

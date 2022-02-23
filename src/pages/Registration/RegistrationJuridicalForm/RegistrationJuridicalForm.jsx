@@ -1,6 +1,6 @@
 import React from "react";
 import { CustomButton,AuthLayout, CustomCheckbox } from "../../../components";
-// import recaptchaIcon from "../../../../assets/icons/recaptcha_icon.png"
+import recaptchaIcon from "../../../assets/icons/recaptcha_icon.png"
 import { Link, useNavigate } from "react-router-dom";
 import "./RegistrationJuridicalForm.css";
 
@@ -45,7 +45,7 @@ const RegistrationJuridicalForm = () => {
                 <CustomCheckbox />
 
                   <label>Я не робот</label>
-                  {/* <img src={recaptchaIcon} alt="recaptcha_icon" /> */}
+                  <img src={recaptchaIcon} alt="recaptcha_icon" />
                 </div>
               </div>
 

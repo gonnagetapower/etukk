@@ -7,6 +7,7 @@ import {
   PersonalProfile,
   PutupAuctionLot,
   UserProfile,
+  MainPage
 } from "../pages";
 import {
   RegistrationChoiceStatus,
@@ -29,6 +30,7 @@ import "./App.css";
 import ChangePasswordForm from "../pages/PersonalProfile/Components/ChangePassword/ChangePasswordForm/ChangePasswordForm";
 import { Preview } from "../pages/PutupAuctionLot/steps";
 
+
 const App = () => {
   return (
     <>
@@ -38,7 +40,8 @@ const App = () => {
       <div className="app-wrapper">
         {/* <Menu /> */}
         <Routes>
-          <Route path="/" element={<UserProfile />} />
+        <Route path="/" element={<MainPage />} />
+          <Route path="/currentUser" element={<UserProfile />} />
           <Route path="/login" element={<Authorization />} />
           <Route
             path="/registration/choice"

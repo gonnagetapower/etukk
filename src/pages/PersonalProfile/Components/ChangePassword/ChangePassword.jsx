@@ -1,6 +1,7 @@
 import React from 'react';
 import {CustomButton, ModalConfirm} from "../../../../components";
 import "./ChangePassword.css"
+
 const ChangePassword=()=> {
   return <div className='change-password__wrapper'>
     <div className="change-password__title">

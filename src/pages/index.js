@@ -8,3 +8,5 @@ export { default as PutupAuctionLot }
 from "./PutupAuctionLot/PutupAuctionLot";
 export { default as UserProfile }
 from "./UserProfile/UserProfile";
+export { default as MainPage }
+from "./MainPage/MainPage"

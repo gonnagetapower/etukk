@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
 .App {
     text-align: center;
 }
@@ -5,8 +6,8 @@
 .app-wrapper {
     margin: 0 auto;
     min-height: 100vh;
-    min-width: 80vw;
-    max-width: 80vw;
+    min-width: 1440px;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

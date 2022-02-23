@@ -1,0 +1,46 @@
+.accordion-wrapper {
+    padding-top: 15px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #BCC2C7;
+}
+
+.accordion-item {
+    overflow: hidden;
+    transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+    height: auto;
+    max-height: 9999px;
+}
+
+.accordion-item.collapsed {
+    max-height: 0;
+    transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-title {
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.5em;
+    display: flex;
+}
+
+.accordion-title::after {
+    margin-left: auto;
+    content: url("./../../../../assets/icons/main_page/arrowBottom_icon.svg");
+    padding-right: 4px;
+}
+
+.accordion-title:hover,
+.accordion-title.open {
+    color: black;
+}
+
+.accordion-title.open::after {
+    margin-left: auto;
+    content: url("./../../../../assets/icons/main_page/arrowTop_icon.svg");
+    padding-right: 4px;
+}
+
+.accordion-wrapper:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}

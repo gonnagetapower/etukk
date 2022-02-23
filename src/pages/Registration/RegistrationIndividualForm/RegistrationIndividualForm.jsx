@@ -1,12 +1,10 @@
 import React from "react";
 import { AuthLayout, CustomButton, CustomCheckbox } from "../../../components";
-// import appleIcon from "../../../../assets/icons/media/apple_icon.png";
-// import recaptchaIcon from "../../../../assets/icons/recaptcha_icon.png"
 
-
-// import googleIcon from "../../../../assets/icons/media/go_icon.png";
-
-// import yandexIcon from "../../../../assets/icons/media/yandex_icon.png";
+import recaptchaIcon from "../../../assets/icons/recaptcha_icon.png";
+import appleIcon from "../../../assets/icons/media/apple_icon.png";
+import googleIcon from "../../../assets/icons/media/go_icon.png";
+import yandexIcon from "../../../assets/icons/media/yandex_icon.png";
 
 import { Link, useNavigate } from "react-router-dom";
 
@@ -14,19 +12,19 @@ import "./RegistrationIndividualForm.css";
 
 const RegistrationIndividualForm = () => {
   const navigate = useNavigate();
-//   const mediaItems = [
-//     { id: 0, icon: yandexIcon, title: "yandex" },
-//     { id: 1, icon: googleIcon, title: "google" },
-//     { id: 2, icon: appleIcon, title: "apple" },
-    
-//   ];
+  const mediaItems = [
+    { id: 0, icon: yandexIcon, title: "yandex" },
+    { id: 1, icon: googleIcon, title: "google" },
+    { id: 2, icon: appleIcon, title: "apple" },
+
+  ];
 
   return (
     <>
       <AuthLayout
         authContent={
           <>
-            {/* <div className="individual-title">Регистрация</div>
+            <div className="individual-title">Регистрация</div>
 
             <div className="individual-via">
               <div className="individual-via__title">Войти через</div>
@@ -85,7 +83,7 @@ const RegistrationIndividualForm = () => {
             </div>
             <div className="individual-toauth">
               <Link to="/login">Войти</Link>
-            </div> */}
+            </div>
           </>
         }
       />

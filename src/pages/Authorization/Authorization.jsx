@@ -34,8 +34,6 @@ const Authorization = () => {
         { id: 5, icon: appleIcon, title: "apple" },
     ]
 
-
-
     return (
         <>
             <div className="authorization-close">

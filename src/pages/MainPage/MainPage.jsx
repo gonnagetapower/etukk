@@ -7,6 +7,55 @@ import { Categories, Filter, Search, Accordion } from "./components";
 import "./MainPage.css"
 
 const MainPage = () => {
+
+
+    const lotsItems = [
+
+        {
+            id: 0, icon: chair, title: "ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ",
+            text: "Продается комплект барных стульев, в употреблении четыре года",
+            place: "г. Москва",
+            initialRate: "100₽",
+            tradingStart: "21.09.21 в 10:00"
+        },
+        {
+            id: 1, icon: chair, title: "ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ",
+            text: "Продается комплект барных стульев, в употреблении четыре года",
+            place: "г. Москва",
+            initialRate: "100₽",
+            tradingStart: "21.09.21 в 10:00"
+        },
+        {
+            id: 2, icon: chair, title: "ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ",
+            text: "Продается комплект барных стульев, в употреблении четыре года",
+            place: "г. Москва",
+            initialRate: "100₽",
+            tradingStart: "21.09.21 в 10:00"
+        },
+        {
+            id: 3, icon: chair, title: "ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ",
+            text: "Продается комплект барных стульев, в употреблении четыре года",
+            place: "г. Москва",
+            initialRate: "100₽",
+            tradingStart: "21.09.21 в 10:00"
+        },
+        {
+            id: 4, icon: chair, title: "ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ",
+            text: "Продается комплект барных стульев, в употреблении четыре года",
+            place: "г. Москва",
+            initialRate: "100₽",
+            tradingStart: "21.09.21 в 10:00"
+        },
+        {
+            id: 5, icon: chair, title: "ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ",
+            text: "Продается комплект барных стульев, в употреблении четыре года",
+            place: "г. Москва",
+            initialRate: "100₽",
+            tradingStart: "21.09.21 в 10:00"
+        },
+    ]
+
+
     return (
         <>
             <Menu />
@@ -18,123 +67,21 @@ const MainPage = () => {
             <div>С доставкой в другие регионы</div>
             <div class="main-content-wrapper">
                 <div class="filtered-content">
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
+                    {lotsItems && lotsItems.map((lotsItems, index) =>
+                        <div class="content-item">
+                            <img class="result-item" src={lotsItems.icon} />
+                            <div class="current-item">
+                                <p>{lotsItems.title}</p>
+                                <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
+                                <div class="info">
+                                    <div class="start">Начальная ставка</div> <p>{lotsItems.initialRate}</p>
+                                </div>
+                                <div class="info">
+                                    <div class="start">Начало торгов </div> <p>{lotsItems.tradingStart}</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-item">
-                        <img class="result-item" src={chair} />
-                        <div class="current-item">
-                            <p>ЗАГОЛОВОК ВМЕСТИТСЯ 2 СТРОКИ НЕ БОЛЬШЕ</p>
-                            <div class="town">г. Москва <img src={deliveryIcon} class="typeDelivery" /></div>
-                            <div class="info">
-                                <div class="start">Начальная ставка </div> <p>100₽</p>
-                            </div>
-                            <div class="info">
-                                <div class="start">Начало торгов </div> <p>21.09.21 в 10:00</p>
-                            </div>
-                        </div>
-                    </div>
+                    )}
                 </div>
                 <div class="filter">
                     <Filter />

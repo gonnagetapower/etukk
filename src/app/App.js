@@ -29,6 +29,7 @@ import {
 import "./App.css";
 import ChangePasswordForm from "../pages/PersonalProfile/Components/ChangePassword/ChangePasswordForm/ChangePasswordForm";
 import { Preview } from "../pages/PutupAuctionLot/steps";
+import Lots from "../pages/Lots/Lots";
 
 
 const App = () => {
@@ -81,6 +82,7 @@ const App = () => {
 
           <Route path="/auction/lot/create" element={<PutupAuctionLot />} />
           <Route path="/auction/lot/create/preview" element={<Preview />} />
+          <Route path="/lot" element={<Lots />} />
         </Routes>
         {/* <CookiesPopup /> */}
       </div>

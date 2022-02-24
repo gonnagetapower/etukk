@@ -1,0 +1,80 @@
+.lotsWrapper {
+    display: grid;
+    grid-template-areas: "content deliveryInfo";
+    margin-top: 94px;
+}
+
+.lotsContent {
+    grid-area: content;
+    width: 455px;
+    margin-left: 120px;
+}
+
+.lotsDeliveryInfo {
+    grid-area: deliveryInfo;
+    width: 382px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+.lotsContent>div {
+    padding-bottom: 30px;
+}
+
+.lotsContent__feature {
+    display: flex;
+}
+
+.lotsContent__feature div {
+    color: #808991;
+}
+
+.lotsContent__feature p {
+    text-align: end;
+    width: 335px;
+}
+
+.lotsContent__actions {
+    display: flex;
+}
+
+.lotsContent__actions img {
+    padding-right: 30px;
+}
+
+.lotsDeliveryInfo__town img {
+    float: right;
+}
+
+.lotsDeliveryInfo__info {
+    display: flex;
+}
+
+.lotsDeliveryInfo__info p {
+    width: 300px;
+    text-align: end;
+}
+
+.start {
+    width: 120px;
+    word-wrap: inherit;
+}
+
+.lotsDeliveryInfo__currentPrice {
+    border: 1px solid #BCC2C7;
+    border-radius: 10px;
+    display: flex;
+    padding: 13px;
+    margin-top: 40px;
+}
+
+.pampam {
+    margin-left: auto;
+}

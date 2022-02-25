@@ -14,7 +14,6 @@ const Missing = () => {
       <div className="missing-empty"></div>
       <div className="missing-error">
         <div>404</div>
-
         <div>
           <span>Ошибка</span> <span>страницы не существует</span>
         </div>

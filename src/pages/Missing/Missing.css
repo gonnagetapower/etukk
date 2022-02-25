@@ -3,7 +3,7 @@
 .missing-wrapper {
     min-height: 100vh;
     min-width: 80vw;
-    /* background-image: url("../../assets/error_404/background_image.png"); */
+    background-image: url("./../../assets/Missing/back_gradient.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,6 +72,6 @@
 }
 
 .missing-logo img {
-    filter: invert(100%);
     height: 100vh;
+    color: #ED1D4A;
 }

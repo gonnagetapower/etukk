@@ -9,8 +9,11 @@ import menuBurgerActive from "../../assets/icons/menu/menu_burger_icon_active.pn
 
 import { CustomButton } from "../";
 import "./Menu.css";
+import Burger from "../BurgerBtn/Burger";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 const Menu = () => {
   const login = true;
+
   const [activeBurgerMenu, setActiveBurgerMenu] = React.useState(false);
 
   const menuNavs = [
@@ -19,7 +22,7 @@ const Menu = () => {
     { id: 2, title: "Личные вещи" },
     { id: 3, title: "Еще" },
   ];
-  const burgerNavs = [
+  const burgerMenuItems = [
     { id: 0, title: "Избранное", notifications: 0 },
     { id: 1, title: "Выставить лот", notifications: 0 },
     { id: 2, title: "Уведомления", notifications: 0 },
@@ -88,8 +91,10 @@ const Menu = () => {
             </div>
           </div>
         )}
-
-        <div
+        <div onClick={() => setActiveBurgerMenu(!activeBurgerMenu) }>
+        <Burger />
+        </div>
+        {/* <div
           onClick={() => setActiveBurgerMenu(!activeBurgerMenu)}
           className="menu-button__burger"
         >
@@ -98,8 +103,13 @@ const Menu = () => {
           ) : (
             <img src={menuBurgerActive} alt="menu_burger_icon" />
           )}
-        </div>
+        </div> */}
       </div>
+        <BurgerMenu 
+        active={activeBurgerMenu} 
+        setActive={setActiveBurgerMenu} 
+        header={'Бургер меню'} 
+        burgerMenuItems={burgerMenuItems} />
     </div>
   );
 };

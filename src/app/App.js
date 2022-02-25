@@ -1,6 +1,6 @@
 
 import React from "react";
-import { BrowserRouter, Route, Routes , } from "react-router-dom";
+import { BrowserRouter, Route, Routes, } from "react-router-dom";
 import {
   Authorization,
   Missing,
@@ -36,57 +36,53 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        {/* app-wrapper none width for auth,reg,forgot,error404 */}
-        <Routes>
-        <Route path="/login" element={<Authorization />} />
-        </Routes>
         <Routes>
         </Routes>
-          {/* <Menu /> */}
-          <Routes>
-            <Route path="/" element={<MainPage />} />
-            <Route path="/currentUser" element={<UserProfile />} />
-            <Route path="/user/profile" element={<PersonalProfile />} />
-            <Route
+        <Routes>
+          <Route path="/login" element={<Authorization />} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/currentUser" element={<UserProfile />} />
+          <Route path="/user/profile" element={<PersonalProfile />} />
+          <Route
             path="/registration/choice"
             element={<RegistrationChoiceStatus />}
           />
-            <Route
-              path="/registration/juridical"
-              element={<RegistrationJuridicalForm />}
-            />
-            <Route
-              path="/registration/individual"
-              element={<RegistrationIndividualForm />}
-            />
-            <Route
-              path="/registration/confirmPhone"
-              element={<RegistrationConfirmPhone />}
-            />
-            <Route
-              path="/registration/confirmEmail"
-              element={<RegistrationConfirmEmail />}
-            />
-            <Route
-              path="/registration/congratulations"
-              element={<RegistrationCongratulations />}
-            />
+          <Route
+            path="/registration/juridical"
+            element={<RegistrationJuridicalForm />}
+          />
+          <Route
+            path="/registration/individual"
+            element={<RegistrationIndividualForm />}
+          />
+          <Route
+            path="/registration/confirmPhone"
+            element={<RegistrationConfirmPhone />}
+          />
+          <Route
+            path="/registration/confirmEmail"
+            element={<RegistrationConfirmEmail />}
+          />
+          <Route
+            path="/registration/congratulations"
+            element={<RegistrationCongratulations />}
+          />
 
-            <Route path="/forgot/form" element={<ForgotForm />} />
-            <Route path="/forgot/sended" element={<ForgotSended />} />
-            <Route path="/forgot/change" element={<ForgotChange />} />
-            {/* <Route path="*" element={<Missing />} /> */}
-            <Route
-              path="/user/password/change"
-              element={<ChangePasswordForm />}
-            />
-            {/* new */}
+          <Route path="/forgot/form" element={<ForgotForm />} />
+          <Route path="/forgot/sended" element={<ForgotSended />} />
+          <Route path="/forgot/change" element={<ForgotChange />} />
+          <Route path="/*" element={<Missing />} />
+          <Route
+            path="/user/password/change"
+            element={<ChangePasswordForm />}
+          />
+          {/* new */}
 
-            <Route path="/auction/lot/create" element={<PutupAuctionLot />} />
-            <Route path="/auction/lot/create/preview" element={<Preview />} />
-            <Route path="/lot" element={<Lots />} />
-          </Routes>
-          {/* <CookiesPopup /> */}
+          <Route path="/auction/lot/create" element={<PutupAuctionLot />} />
+          <Route path="/auction/lot/create/preview" element={<Preview />} />
+          <Route path="/lot" element={<Lots />} />
+        </Routes>
+        {/* <CookiesPopup /> */}
       </BrowserRouter>
     </>
   );

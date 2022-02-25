@@ -40,6 +40,7 @@ const UserProfile = () => {
   }
   return (
     <>
+    <div className="app-wrapper">
       <Menu />
       <div className="user-profile__wrapper">
         <div className="user-profile__leftside">
@@ -112,6 +113,7 @@ const UserProfile = () => {
         </div>
       </div>
       <Footer />
+      </div>
     </>
   );
 };

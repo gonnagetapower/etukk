@@ -129,6 +129,7 @@ const PersonalProfile = () => {
 
   return (
     <>
+    <div className="app-wrapper">
       <Menu />
       <div className="pprofile-wrapper">
         <div className="pprofile-top">
@@ -188,6 +189,7 @@ const PersonalProfile = () => {
         </div>
       </div>
       <Footer />
+      </div>
     </>
   );
 };
